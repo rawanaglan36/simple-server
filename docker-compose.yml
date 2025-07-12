@@ -2,6 +2,7 @@ version: "2.38.1"
 services: 
   node-app:
     container_name: simple-node-container 
+    image: rawan36/simple-server
     ports: 
       - "4000:3000"
     depends_on:
