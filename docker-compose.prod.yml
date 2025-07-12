@@ -1,0 +1,10 @@
+version: "2.38.1"
+services: 
+   node-app:
+    build:
+        context: .
+        target: production 
+    # environment:
+    #   - NODE_ENV=production
+    # command: npm run start 
+    
